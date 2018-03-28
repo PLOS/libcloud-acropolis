@@ -14,7 +14,7 @@ for use in your project. For example:
 from libcloud.compute.providers import get_driver
 from libcloud.compute.providers import set_driver
 
-set_driver('acropolis', 'libcloud_acropolis.compute', 'AcropolisNodeDriver')
+set_driver('acropolis', 'libcloud_acropolis.compute.acropolis', 'AcropolisNodeDriver')
 driver = get_driver('acropolis')
 ```
 
@@ -30,3 +30,7 @@ requests using the requests library.
 ## status
 
 Unreleased. Not yet usable.
+
+## upstream status
+
+Review not yet requested.
